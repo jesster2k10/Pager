@@ -79,7 +79,7 @@ First we should choose the type of pager we want to create, depending on our cho
 > You can also make your custom pager controller by extending directly from `PagerTabStripViewController` in case no pager menu type fits your needs.
 
 ```swift
-import XLPagerTabStrip
+import Pager
 
 class MyPagerTabStripName: ButtonBarPagerTabStripViewController {
   ..
@@ -294,7 +294,7 @@ settings.style.segmentedControlColor: UIColor?
 
 ## Examples
 
-Follow these 3 steps to run Example project: Clone XLPagerTabStrip repository, open XLPagerTabStrip workspace and run the *Example* project.
+Follow these 3 steps to run Example project: Clone Pager repository, open Pager workspace and run the *Example* project.
 
 ## Installation
 
@@ -312,7 +312,7 @@ pod 'Pager', '~> 7.0'
 
 [Carthage](https://github.com/Carthage/Carthage) is a simple, decentralized dependency manager for Cocoa.
 
-To install XLPagerTabStrip, simply add the following line to your Cartfile:
+To install Pager, simply add the following line to your Cartfile:
 
 ```ogdl
 github "jesster2k10/Pager" ~> 7.0
@@ -334,7 +334,7 @@ func moveTo(viewController: UIViewController, animated: Bool)
 
 #### How to migrate from Swift 2 to Swift 3 <a name="migrate"></a>
 
-Check out [our migration guide](https://github.com/xmartlabs/XLPagerTabStrip/blob/master/Migration.md)
+Check out [our migration guide](https://github.com/jesster2k10/Pager/blob/master/Migration.md)
 
 ## Author
 
