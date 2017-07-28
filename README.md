@@ -1,4 +1,4 @@
-# XLPagerTabStrip
+# Pager (previously XLPagerTabStrip)
 
 <p align="left">
 <a href="https://travis-ci.org/xmartlabs/XLPagerTabStrip"><img src="https://travis-ci.org/xmartlabs/XLPagerTabStrip.svg?branch=master" alt="Build status" /></a>
@@ -16,7 +16,7 @@ Made with ❤️ by [XMARTLABS](http://xmartlabs.com).
 
 Android [PagerTabStrip](http://developer.android.com/reference/android/support/v4/view/PagerTabStrip.html) for iOS!
 
-**XLPagerTabStrip** is a *Container View Controller* that allows us to switch easily among a collection of view controllers. Pan gesture can be used to move on to next or previous view controller. It shows a interactive indicator of the current, previous, next child view controllers.
+**Pager** is a *Container View Controller* that allows us to switch easily among a collection of view controllers. Pan gesture can be used to move on to next or previous view controller. It shows a interactive indicator of the current, previous, next child view controllers.
 
 <table>
   <tr>
@@ -35,7 +35,7 @@ Android [PagerTabStrip](http://developer.android.com/reference/android/support/v
 
 **Before contribute check the [CONTRIBUTING](CONTRIBUTING.md) file for more info.**
 
-If you use **XLPagerTabStrip** in your app We would love to hear about it! Drop us a line on [twitter](https://twitter.com/xmartlabs).
+If you use **Pager** in your app We would love to hear about it! Drop us a line on [twitter](https://twitter.com/xmartlabs).
 
 ## Pager Types
 
@@ -302,10 +302,10 @@ Follow these 3 steps to run Example project: Clone XLPagerTabStrip repository, o
 
 [CocoaPods](https://cocoapods.org/) is a dependency manager for Cocoa projects.
 
-To install XLPagerTabStrip, simply add the following line to your Podfile:
+To install Pager, simply add the following line to your Podfile:
 
 ```ruby
-pod 'XLPagerTabStrip', '~> 7.0'
+pod 'Pager', '~> 7.0'
 ```
 
 ### Carthage
@@ -315,7 +315,7 @@ pod 'XLPagerTabStrip', '~> 7.0'
 To install XLPagerTabStrip, simply add the following line to your Cartfile:
 
 ```ogdl
-github "xmartlabs/XLPagerTabStrip" ~> 7.0
+github "jesster2k10/Pager" ~> 7.0
 ```
 
 ## FAQ
